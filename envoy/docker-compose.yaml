@@ -1,0 +1,6 @@
+version: '3.9'
+services:
+  envoy_simple_grpc:
+    image: 'envoy:simple_grpc'
+    ports:
+      - '5000:5000'
